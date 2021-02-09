@@ -1,5 +1,5 @@
 [package]
-name = "readability-fork"
+name = "readability"
 version = "0.2.2-alpha.0"
 authors = ["Hiroki Kumamoto <kumabook@live.jp>"]
 license = "MIT"
@@ -13,8 +13,9 @@ edition = "2018"
 [dependencies]
 regex            = "1"
 url              = "2.1"
-html5ever        = "0.24"
+html5ever        = "^0.25"
 lazy_static      = "1.4"
+markup5ever_rcdom = "0.1"
 
 [dependencies.reqwest]
 version = "0.10"
